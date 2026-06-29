@@ -1,0 +1,35 @@
+# Binaries
+pioc-config-uploader
+pioc-config-uploader.exe
+*.exe
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Config files with sensitive data
+config.yaml
+*.yaml
+!config.example.yaml
+!go.mod
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+release/
