@@ -1,0 +1,17 @@
+# PIOC API 配置
+# 请复制此文件为 config.yaml 并填入您的实际配置
+
+# API Key (必填)
+api_key: "pk_your_api_key_here"
+
+# API Secret (必填)
+api_secret: "your_api_secret_here"
+
+# API 基础 URL (可选，默认为 http://localhost:8080)
+base_url: "http://localhost:8080"
+
+# 配置ID (必填)
+config_id: "your-config-id-here"
+
+# 要上传的配置文件路径 (必填)
+config_file: "/path/to/your/config.conf"
